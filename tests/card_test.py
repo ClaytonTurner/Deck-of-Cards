@@ -18,3 +18,9 @@ def test_valid_card_creation():
     card = Card("7", "Hearts")
     assert card.value == "7"
     assert card.suit == "Hearts"
+
+
+def test_joker():
+    joker = Card("Joker")
+    assert joker.value == "Joker"
+    assert joker.suit is None
