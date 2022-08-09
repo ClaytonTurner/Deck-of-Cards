@@ -5,6 +5,7 @@ from constants import (
 
 
 class Card(object):
+    # TODO: Jokers do not have a suit, so they should be handled in a special way
     suit = str()
     value = str()
 
